@@ -1,0 +1,42 @@
+{
+  "name": "crazycaters/think-easyswoole",
+  "description": "The Think EasySwoole Framework.",
+  "keywords": [
+    "framework",
+    "thinkes",
+    "easyswoole"
+  ],
+  "homepage": "http://thinkes.com/",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "crazycater",
+      "email": "sqwindows@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "ext-swoole": ">=4.4.4",
+    "easyswoole/easyswoole": "3.x"
+  },
+  "require-dev": {
+    "easyswoole/phpunit": "^1.0",
+    "easyswoole/swoole-ide-helper": "^1.2"
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "thinkes\\": "src/thinkes/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "thinkes\\tests\\": "src/tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  }
+}
